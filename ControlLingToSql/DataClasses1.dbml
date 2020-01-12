@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="p1_cnx_sql" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-E5A56SA\ABD;Initial Catalog=p1_cnx_sql;Integrated Security=True" SettingsObjectName="ControlLingToSql.Properties.Settings" SettingsPropertyName="p1_cnx_sqlConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[user]" Member="users">
+    <Type Name="user">
+      <Column Name="empno" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="empname" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="job" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="supervisor" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="deptno" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="salaire" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="datenaiss" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sexe" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="civilite" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="departement_user" Member="departement" ThisKey="deptno" OtherKey="IDDEP" Type="departement" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.login" Member="logins">
+    <Type Name="login">
+      <Column Name="login" Member="login1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.departement" Member="departements">
+    <Type Name="departement">
+      <Column Name="IDDEP" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="depname" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="sites" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="departement_user" Member="users" ThisKey="IDDEP" OtherKey="deptno" Type="user" />
+    </Type>
+  </Table>
+</Database>

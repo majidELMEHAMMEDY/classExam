@@ -1,0 +1,9 @@
+C:\Users\Syste\source\repos\ControlLingToSql\ControlLingToSql\obj\Debug\ControlLingToSql.csprojAssemblyReference.cache
+C:\Users\Syste\source\repos\ControlLingToSql\ControlLingToSql\obj\Debug\ControlLingToSql.Form1.resources
+C:\Users\Syste\source\repos\ControlLingToSql\ControlLingToSql\obj\Debug\ControlLingToSql.Properties.Resources.resources
+C:\Users\Syste\source\repos\ControlLingToSql\ControlLingToSql\obj\Debug\ControlLingToSql.csproj.GenerateResource.cache
+C:\Users\Syste\source\repos\ControlLingToSql\ControlLingToSql\bin\Debug\ControlLingToSql.exe.config
+C:\Users\Syste\source\repos\ControlLingToSql\ControlLingToSql\bin\Debug\ControlLingToSql.exe
+C:\Users\Syste\source\repos\ControlLingToSql\ControlLingToSql\bin\Debug\ControlLingToSql.pdb
+C:\Users\Syste\source\repos\ControlLingToSql\ControlLingToSql\obj\Debug\ControlLingToSql.exe
+C:\Users\Syste\source\repos\ControlLingToSql\ControlLingToSql\obj\Debug\ControlLingToSql.pdb
