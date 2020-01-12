@@ -1,0 +1,9 @@
+C:\Users\Syste\source\repos\deleteControl\deleteControl\bin\Debug\deleteControl.exe.config
+C:\Users\Syste\source\repos\deleteControl\deleteControl\bin\Debug\deleteControl.exe
+C:\Users\Syste\source\repos\deleteControl\deleteControl\bin\Debug\deleteControl.pdb
+C:\Users\Syste\source\repos\deleteControl\deleteControl\obj\Debug\deleteControl.csprojAssemblyReference.cache
+C:\Users\Syste\source\repos\deleteControl\deleteControl\obj\Debug\deleteControl.Form1.resources
+C:\Users\Syste\source\repos\deleteControl\deleteControl\obj\Debug\deleteControl.Properties.Resources.resources
+C:\Users\Syste\source\repos\deleteControl\deleteControl\obj\Debug\deleteControl.csproj.GenerateResource.cache
+C:\Users\Syste\source\repos\deleteControl\deleteControl\obj\Debug\deleteControl.exe
+C:\Users\Syste\source\repos\deleteControl\deleteControl\obj\Debug\deleteControl.pdb
